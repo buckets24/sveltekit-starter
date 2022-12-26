@@ -9,9 +9,8 @@ export const load: PageLoad = async (event) => {
 	// 	throw redirect(303, '/login');
 	// }
 
-	if (event.params.pageNumber) {
-		return null;
-	}
-
-	throw redirect(303, '/dashboard/1');
+	return {
+		// user: session.user
+		user: null
+	};
 };

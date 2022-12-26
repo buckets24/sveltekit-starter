@@ -17,4 +17,6 @@
 	});
 </script>
 
-<slot />
+<div class="app-layout">
+	<slot />
+</div>

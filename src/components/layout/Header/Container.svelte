@@ -15,17 +15,19 @@
   }
 </script>
 
-<div class="
-  bg-bodyBg 
-  w-full 
-  sticky 
-  top-0 
-  z-10 
-  px-3 
-  my-3"
+<div 
+  class="
+    bg-bodyBg 
+    w-full 
+    sticky 
+    top-0 
+    z-30 
+    px-3 
+    my-3"
 >
   <div 
-    class="navbar 
+    class="
+    navbar 
     rounded-lg 
     bg-base-100 
     shadow-lg"
@@ -51,7 +53,7 @@
           text-xl 
           px-2"
       >
-        App Name
+        Page Name
       </span>
     </div>
     <div class="
